@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/colli369'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/seeras-sea/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('colli369')                                             // <------change this
+        KUBECONFIG = credentials('colli369-225')                                             // <------change this
     }
 
     stages {
